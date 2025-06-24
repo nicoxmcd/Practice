@@ -1,7 +1,7 @@
 # Assignments & Practice Breakdown
 
 | Topic      | Class | Year | Professor |
-| ----------- | ----------- | ----------- |
+| ----------- | ----------- | ----------- | ----------- |
 | Assembly | CPE 390 Introduction to Microprocessors | Summer Semester 2022 | Mukund Iyengar, Fan Yang |
 | CPP   | ENGR 115 Introduction to Programming | Fall Semester 2020 | Mukund Iyengar, Self |
 | Go   | NA        | 2025 | Self |
