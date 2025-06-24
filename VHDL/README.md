@@ -1,0 +1,3 @@
+# CPE 487 FPGA Project
+### Project Description
+> The objective of this project was to create a program that can take the temperature from an i2c sensor of an FPGA board and display the numbers on the 7 segment display.  The way this is done is to utilize the i2c communication protocol and the No write operation needed to read temperature data to isolate the data coming from the sensor. While doing research for this project, I used resources from previous homeworks that were done in this course as well as outside resources such as the i2c protocol datasheet, and various other datasheets for the FPGA board as well as the ADT7420 temperature sensor. 
