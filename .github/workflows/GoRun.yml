@@ -1,0 +1,20 @@
+name: Run Go Demo
+run-name: ${{ github.actor }} is building ${{ inputs.file }}
+
+
+on:
+    workflow_dispatch:
+        inputs:
+            file:
+                type: string
+                required: true
+                description: Which file shall we build? (Exclude file ext)
+    
+jobs:
+    Build-Run:
+        runs-on: ubuntu-latest
+        steps:
+          - uses: actions/checkout@v4
+          - uses: actions/setup-go@v4
+          - run: go version
+          - run: go run ${{ inputs.file }}.go
