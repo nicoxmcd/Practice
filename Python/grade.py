@@ -1,4 +1,4 @@
-grade = input("What's your grade?")
+grade = int(input("What's your grade?"))
 
 if grade >= 90:
   print("A")
