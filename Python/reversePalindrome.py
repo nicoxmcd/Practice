@@ -11,6 +11,11 @@ def reverse_Loop(s):
 
 print(reverse_Loop("blueberry"))
 
+
+
+
+
+
 def palindrome(s):
     return s == s[::-1]
 
